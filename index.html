@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聚类算法实验</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0; /* 去掉默认边距 */
+            padding: 50px; /* 添加内边距 */
+            box-sizing: border-box; /* 使宽度计算包括内边距 */
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center; /* 标题居中 */
+            margin-bottom: 50px; /* 标题与内容之间的间距 */
+        }
+        .logo {
+            width: 300px; /* 根据需要调整校徽大小 */
+            margin-right: 20px;
+        }
+        .content {
+            margin-top: 40px;
+            text-align: center; /* 内容居中 */
+        }
+        .image-gallery {
+            display: flex;
+            justify-content: center; /* 图片居中 */
+            flex-wrap: wrap; /* 允许换行 */
+            gap: 50px; /* 图片之间的间距 */
+            margin-top: 50px; /* 图片与其他内容之间的间距 */
+        }
+        .image-gallery img {
+            max-width: 500px; /* 图片最大宽度 */
+            height: auto; /* 高度自适应 */
+            border: 1px solid #ccc; /* 图片边框 */
+            border-radius: 8px; /* 圆角边框 */
+        }
+        .download-links {
+            margin-top: 20px;
+            text-align: center; /* 下载链接居中 */
+        }
+        iframe {
+            max-width: 100%; /* 使iframe自适应宽度 */
+            height: 600px; /* 固定高度 */
+            border: none; /* 去掉边框 */
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="山科校徽.png" alt="山东科技大学校徽" class="logo">
+        <h1>聚类算法实验</h1>
+    </div>
+    <div class="content">
+        <p>聚类实验算法仿真平台是一个集成了多种聚类算法与高效数据预处理工具的综合平台，特别支持K-means聚类算法。它允许用户随机生成多样化的数据集并进行预处理，同时通过直观易用的图形界面设置算法参数（如关键的k值），以实现对数据集的精确聚类。平台实时展示聚类结果，并提供丰富的可视化工具及强大的结果分析和模型评估功能，使用户能够深入理解和评估不同聚类方案的效果。这一全面的实验环境为研究人员和学生提供了极大的便利，成为他们进行聚类算法研究与应用的重要工具，有力地促进了聚类算法的发展与应用。。</p>
+        <div>
+            <h2>实验平台演示</h2>
+            <div class="image-gallery">
+                <img src="图片1.png" alt="实验平台图1">
+                <img src="图片2.png" alt="实验平台图2">
+                <img src="图片3.png" alt="实验平台图3">
+            </div>
+        </div>
+        <div class="download-links">
+            <h2>下载链接</h2>
+            <a href="https://www.microsoft.com/zh-CN/download/details.aspx?id=58494" download>下载 Power BI</a><br>
+            <a href="1.pbix" download>下载 聚类算法实验</a>
+        </div>
+    </div>
+</body>
+</html>
